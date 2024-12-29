@@ -47,22 +47,22 @@
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
         "ext-mongodb": "*",
-        "doctrine/cache": "^1.11 || ^2.0",
+        "doctrine/cache": "^2.0.0",
         "doctrine/doctrine-laminas-hydrator": "^3.3.0",
-        "doctrine/doctrine-module": "^6.1.0",
-        "doctrine/event-manager": "^1.2.0 || ^2.0.0",
+        "doctrine/doctrine-module": "^6.2.0",
+        "doctrine/event-manager": "^2.0.0",
         "doctrine/mongodb-odm": "^2.5.2",
         "laminas/laminas-eventmanager": "^3.10.0",
         "laminas/laminas-modulemanager": "^2.14.0",
         "laminas/laminas-mvc": "^3.6.1",
         "laminas/laminas-servicemanager": "^3.19.0",
         "laminas/laminas-stdlib": "^3.16.1",
-        "symfony/console": "^5.4.26 || ^6.3.2",
-        "symfony/var-dumper": "^5.4.26 || ^6.3.2"
+        "symfony/console": "^6.3.2 || ^7.0.0",
+        "symfony/var-dumper": "^6.3.2 || ^7.0.0"
     },
     "require-dev": {
         "doctrine/coding-standard": "^12.0.0",
-        "doctrine/persistence": "^2.5.7 || ^3.4.0",
+        "doctrine/persistence": "^3.4.0",
         "jangregor/phpstan-prophecy": "^2.0.0",
         "laminas/laminas-developer-tools": "^2.9.0",
         "laminas/laminas-hydrator": "^4.16.0",
