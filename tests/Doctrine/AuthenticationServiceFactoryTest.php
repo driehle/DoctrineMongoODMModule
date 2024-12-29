@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DoctrineMongoODMModuleTest\Doctrine;
 
-use DoctrineMongoODMModuleTest\AbstractTest;
+use DoctrineMongoODMModuleTest\AbstractTestCase;
 
-class AuthenticationServiceFactoryTest extends AbstractTest
+class AuthenticationServiceFactoryTest extends AbstractTestCase
 {
     public function testAuthenticationServiceFactory(): void
     {

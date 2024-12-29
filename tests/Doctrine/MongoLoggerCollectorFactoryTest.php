@@ -6,9 +6,9 @@ namespace DoctrineMongoODMModuleTest\Doctrine;
 
 use DoctrineMongoODMModule\Collector\MongoLoggerCollector;
 use DoctrineMongoODMModule\Service\MongoLoggerCollectorFactory;
-use DoctrineMongoODMModuleTest\AbstractTest;
+use DoctrineMongoODMModuleTest\AbstractTestCase;
 
-class MongoLoggerCollectorFactoryTest extends AbstractTest
+class MongoLoggerCollectorFactoryTest extends AbstractTestCase
 {
     public function testCreateService(): void
     {

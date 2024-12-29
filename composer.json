@@ -69,7 +69,7 @@
         "laminas/laminas-session": "^2.22.1",
         "phpspec/prophecy-phpunit": "^2.3.0",
         "phpstan/phpstan": "^1.12.13",
-        "phpunit/phpunit": "^9.6.22"
+        "phpunit/phpunit": "^10.5.40"
     },
     "suggest": {
         "laminas/laminas-developer-tools": "laminas-developer-tools if you want to profile operations executed by the ODM during development",

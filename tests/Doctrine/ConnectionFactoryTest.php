@@ -6,11 +6,11 @@ namespace DoctrineMongoODMModuleTest\Doctrine;
 
 use Doctrine\ODM\MongoDB\Configuration;
 use DoctrineMongoODMModule\Service\ConnectionFactory;
-use DoctrineMongoODMModuleTest\AbstractTest;
+use DoctrineMongoODMModuleTest\AbstractTestCase;
 use MongoDB\Client;
 
 /** @covers  \DoctrineMongoODMModule\Service\ConnectionFactory */
-class ConnectionFactoryTest extends AbstractTest
+class ConnectionFactoryTest extends AbstractTestCase
 {
     /** @var mixed[] $configuration */
     private array $configuration;
