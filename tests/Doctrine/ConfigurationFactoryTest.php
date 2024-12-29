@@ -20,8 +20,6 @@ use DoctrineMongoODMModuleTest\Assets\CustomRepositoryFactory;
 use DoctrineMongoODMModuleTest\Assets\CustomType;
 use Laminas\ServiceManager\ServiceManager;
 
-use function assert;
-
 final class ConfigurationFactoryTest extends AbstractTestCase
 {
     public function testCreation(): void
@@ -96,8 +94,6 @@ final class ConfigurationFactoryTest extends AbstractTestCase
 
         $factory = new ConfigurationFactory('odm_test');
         $config  = $factory($serviceLocator, Config::class);
-
-        assert($config instanceof Config);
 
         $this->assertInstanceOf(Config::class, $config);
 

@@ -8,8 +8,6 @@ use DoctrineMongoODMModuleTest\AbstractTestCase;
 use DoctrineMongoODMModuleTest\Assets\CustomDocumentRepository;
 use DoctrineMongoODMModuleTest\Assets\Document\Simple;
 
-use function assert;
-
 final class CustomDefaultRepositoryTest extends AbstractTestCase
 {
     public function testCustomDefaultRepository(): void
@@ -19,7 +17,6 @@ final class CustomDefaultRepositoryTest extends AbstractTestCase
         $repository = $documentManager->getRepository(Simple::class);
 
         $this->assertInstanceOf(CustomDocumentRepository::class, $repository);
-        assert($repository instanceof CustomDocumentRepository);
         $this->assertTrue($repository->isCustomDefaultDocumentRepository());
     }
 }

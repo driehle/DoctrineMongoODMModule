@@ -31,7 +31,7 @@ class CustomRepositoryFactory implements RepositoryFactory
             /**
              * {@inheritDoc}
              *
-             * @psalm-return mixed[]
+             * @phpstan-return mixed[]
              */
             public function findAll(): array
             {
@@ -41,10 +41,14 @@ class CustomRepositoryFactory implements RepositoryFactory
             /**
              * {@inheritDoc}
              *
-             * @psalm-return mixed[]
+             * @phpstan-return mixed[]
              */
-            public function findBy(array $criteria, array|null $orderBy = null, $limit = null, $offset = null): array
-            {
+            public function findBy(
+                array $criteria,
+                array|null $orderBy = null,
+                int|null $limit = null,
+                int|null $offset = null,
+            ): array {
                 return [];
             }
 
@@ -56,7 +60,7 @@ class CustomRepositoryFactory implements RepositoryFactory
                 return null;
             }
 
-            /** @psalm-return string */
+            /** @phpstan-return string */
             public function getClassName(): string
             {
                 return stdClass::class;
