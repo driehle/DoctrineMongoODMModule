@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: docker/Dockerfile
       args:
-        - PHP_VERSION=${PHP_VERSION:-8.0}
+        - PHP_VERSION=${PHP_VERSION:-8.1}
         - XDEBUG=${XDEBUG:-0}
     volumes:
       - ./:/docker
