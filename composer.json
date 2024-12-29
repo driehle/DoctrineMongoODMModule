@@ -45,7 +45,7 @@
     ],
     "homepage": "https://www.doctrine-project.org/",
     "require": {
-        "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
+        "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
         "ext-mongodb": "*",
         "doctrine/cache": "^1.11 || ^2.0",
         "doctrine/doctrine-laminas-hydrator": "^3.3.0",
@@ -62,15 +62,15 @@
     },
     "require-dev": {
         "doctrine/coding-standard": "^12.0.0",
-        "doctrine/persistence": "^2.5.7 || ^3.2.0",
-        "jangregor/phpstan-prophecy": "^1.0.0",
-        "laminas/laminas-developer-tools": "^2.8.0",
-        "laminas/laminas-hydrator": "^4.13.0",
-        "laminas/laminas-session": "^2.16.0",
-        "phpspec/prophecy-phpunit": "^2.0.2",
-        "phpstan/phpstan": "^1.10.26",
-        "phpunit/phpunit": "^9.6.10",
-        "vimeo/psalm": "^5.14.1"
+        "doctrine/persistence": "^2.5.7 || ^3.4.0",
+        "jangregor/phpstan-prophecy": "^1.0.2",
+        "laminas/laminas-developer-tools": "^2.9.0",
+        "laminas/laminas-hydrator": "^4.16.0",
+        "laminas/laminas-session": "^2.22.1",
+        "phpspec/prophecy-phpunit": "^2.3.0",
+        "phpstan/phpstan": "^1.12.13",
+        "phpunit/phpunit": "^9.6.22",
+        "vimeo/psalm": "^5.26.1"
     },
     "suggest": {
         "laminas/laminas-developer-tools": "laminas-developer-tools if you want to profile operations executed by the ODM during development",
