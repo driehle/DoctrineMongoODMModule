@@ -27,7 +27,7 @@ final class Configuration extends AbstractOptions
     /**
      * Automatic generation of proxies (disable for production!)
      *
-     * @psalm-var MongoDbConfiguration::AUTOGENERATE_*
+     * @phpstan-var MongoDbConfiguration::AUTOGENERATE_*
      */
     protected int $generateProxies = MongoDbConfiguration::AUTOGENERATE_EVAL;
 
@@ -44,7 +44,7 @@ final class Configuration extends AbstractOptions
     /**
      * Automatic generation of hydrators (disable for production!)
      *
-     * @psalm-var MongoDbConfiguration::AUTOGENERATE_*
+     * @phpstan-var MongoDbConfiguration::AUTOGENERATE_*
      */
     protected int $generateHydrators = MongoDbConfiguration::AUTOGENERATE_ALWAYS;
 
@@ -61,7 +61,7 @@ final class Configuration extends AbstractOptions
     /**
      * Persistent collection generation strategy.
      *
-     * @psalm-var MongoDbConfiguration::AUTOGENERATE_*
+     * @phpstan-var MongoDbConfiguration::AUTOGENERATE_*
      */
     protected int $generatePersistentCollections = MongoDbConfiguration::AUTOGENERATE_ALWAYS;
 
@@ -135,7 +135,7 @@ final class Configuration extends AbstractOptions
         return 'doctrine.driver.' . $this->driver;
     }
 
-    /** @psalm-param MongoDbConfiguration::AUTOGENERATE_* $generateProxies */
+    /** @phpstan-param MongoDbConfiguration::AUTOGENERATE_* $generateProxies */
     public function setGenerateProxies(int $generateProxies): self
     {
         $this->generateProxies = $generateProxies;
@@ -143,7 +143,7 @@ final class Configuration extends AbstractOptions
         return $this;
     }
 
-    /** @psalm-return MongoDbConfiguration::AUTOGENERATE_* */
+    /** @phpstan-return MongoDbConfiguration::AUTOGENERATE_* */
     public function getGenerateProxies(): int
     {
         return $this->generateProxies;
@@ -185,13 +185,13 @@ final class Configuration extends AbstractOptions
         return $this->proxyNamespace;
     }
 
-    /** @psalm-return MongoDbConfiguration::AUTOGENERATE_* */
+    /** @phpstan-return MongoDbConfiguration::AUTOGENERATE_* */
     public function getGenerateHydrators(): int
     {
         return $this->generateHydrators;
     }
 
-    /** @psalm-param MongoDbConfiguration::AUTOGENERATE_* $generateHydrators */
+    /** @phpstan-param MongoDbConfiguration::AUTOGENERATE_* $generateHydrators */
     public function setGenerateHydrators(int $generateHydrators): self
     {
         $this->generateHydrators = $generateHydrators;
@@ -223,13 +223,13 @@ final class Configuration extends AbstractOptions
         return $this;
     }
 
-    /** @psalm-return MongoDbConfiguration::AUTOGENERATE_* */
+    /** @phpstan-return MongoDbConfiguration::AUTOGENERATE_* */
     public function getGeneratePersistentCollections(): int
     {
         return $this->generatePersistentCollections;
     }
 
-    /** @psalm-param MongoDbConfiguration::AUTOGENERATE_* $generatePersistentCollections */
+    /** @phpstan-param MongoDbConfiguration::AUTOGENERATE_* $generatePersistentCollections */
     public function setGeneratePersistentCollections(int $generatePersistentCollections): self
     {
         $this->generatePersistentCollections = (int) $generatePersistentCollections;
@@ -325,7 +325,7 @@ final class Configuration extends AbstractOptions
         return $this->logger;
     }
 
-    /** @psalm-return class-string<ClassMetadataFactory>|null */
+    /** @phpstan-return class-string<ClassMetadataFactory>|null */
     public function getClassMetadataFactoryName(): string|null
     {
         return $this->classMetadataFactoryName;
@@ -362,7 +362,7 @@ final class Configuration extends AbstractOptions
         return $this;
     }
 
-    /** @psalm-return class-string<ObjectRepository<object>> */
+    /** @phpstan-return class-string<ObjectRepository<object>> */
     public function getDefaultDocumentRepositoryClassName(): string|null
     {
         return $this->defaultDocumentRepositoryClassName;
