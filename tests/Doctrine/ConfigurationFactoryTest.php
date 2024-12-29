@@ -13,7 +13,7 @@ use Doctrine\ODM\MongoDB\PersistentCollection\PersistentCollectionGenerator;
 use Doctrine\ODM\MongoDB\Types\Type;
 use Doctrine\Persistence\Mapping\Driver\MappingDriver;
 use DoctrineMongoODMModule\Service\ConfigurationFactory;
-use DoctrineMongoODMModuleTest\AbstractTest;
+use DoctrineMongoODMModuleTest\AbstractTestCase;
 use DoctrineMongoODMModuleTest\Assets\CustomClassMetadataFactory;
 use DoctrineMongoODMModuleTest\Assets\CustomDocumentRepository;
 use DoctrineMongoODMModuleTest\Assets\CustomRepositoryFactory;
@@ -22,7 +22,7 @@ use Laminas\ServiceManager\ServiceManager;
 
 use function assert;
 
-final class ConfigurationFactoryTest extends AbstractTest
+final class ConfigurationFactoryTest extends AbstractTestCase
 {
     public function testCreation(): void
     {

@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace DoctrineMongoODMModuleTest\Doctrine;
 
 use Doctrine\ODM\MongoDB\DocumentManager;
-use DoctrineMongoODMModuleTest\AbstractTest;
+use DoctrineMongoODMModuleTest\AbstractTestCase;
 
-final class DocumentManagerTest extends AbstractTest
+final class DocumentManagerTest extends AbstractTestCase
 {
     /** @var mixed[] $configuration */
     private array $configuration = [];

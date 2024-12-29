@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace DoctrineMongoODMModuleTest\Doctrine;
 
-use DoctrineMongoODMModuleTest\AbstractTest;
+use DoctrineMongoODMModuleTest\AbstractTestCase;
 use DoctrineMongoODMModuleTest\Assets\CustomDocumentRepository;
 use DoctrineMongoODMModuleTest\Assets\Document\Simple;
 
 use function assert;
 
-final class CustomDefaultRepositoryTest extends AbstractTest
+final class CustomDefaultRepositoryTest extends AbstractTestCase
 {
     public function testCustomDefaultRepository(): void
     {

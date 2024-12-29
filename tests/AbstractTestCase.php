@@ -10,7 +10,7 @@ use MongoDB\Driver\Exception\RuntimeException;
 use MongoDB\Driver\WriteConcern;
 use PHPUnit\Framework\TestCase;
 
-abstract class AbstractTest extends TestCase
+abstract class AbstractTestCase extends TestCase
 {
     protected mixed $application;
 

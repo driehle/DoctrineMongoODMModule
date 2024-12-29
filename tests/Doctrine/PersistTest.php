@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace DoctrineMongoODMModuleTest\Doctrine;
 
-use DoctrineMongoODMModuleTest\AbstractTest;
+use DoctrineMongoODMModuleTest\AbstractTestCase;
 use DoctrineMongoODMModuleTest\Assets\Document\Simple;
 
-class PersistTest extends AbstractTest
+class PersistTest extends AbstractTestCase
 {
     public function testPersist(): void
     {
