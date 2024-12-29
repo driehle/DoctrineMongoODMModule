@@ -9,40 +9,6 @@
         "module",
         "odm"
     ],
-    "authors": [
-        {
-            "name": "Kyle Spraggs",
-            "email": "theman@spiffyjr.me"
-        },
-        {
-            "name": "Marco Pivetta",
-            "email": "ocramius@gmail.com"
-        },
-        {
-            "name": "Evan Coury",
-            "email": "me@evancoury.com"
-        },
-        {
-            "name": "Guilherme Blanco",
-            "email": "guilhermeblanco@hotmail.com"
-        },
-        {
-            "name": "Tim Roediger",
-            "email": "superdweebie@gmail.com"
-        },
-        {
-            "name": "Maciej Malarz",
-            "email": "malarzm@gmail.com"
-        },
-        {
-            "name": "Andreas Braun",
-            "email": "alcaeus@alcaeus.org"
-        },
-        {
-            "name": "Tom H Anderson",
-            "email": "tom.h.anderson@gmail.com"
-        }
-    ],
     "homepage": "https://www.doctrine-project.org/",
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
