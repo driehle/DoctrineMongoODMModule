@@ -1,9 +1,9 @@
 # Doctrine MongoDB ODM Module for Laminas
 
-[![Build Status](https://github.com/doctrine/DoctrineMongoODMModule/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/doctrine/DoctrineMongoODMModule/actions/workflows/continuous-integration.yml?query=branch%3A5.0.x)
-[![Code Coverage](https://codecov.io/gh/doctrine/DoctrineMongoODMModule/branch/5.0.x/graphs/badge.svg)](https://codecov.io/gh/doctrine/DoctrineMongoODMModule/branch/5.0.x)
-[![Latest Stable Version](https://poser.pugx.org/doctrine/doctrine-mongo-odm-module/v/stable.png)](https://packagist.org/packages/doctrine/doctrine-mongo-odm-module) 
-[![Total Downloads](https://poser.pugx.org/doctrine/doctrine-mongo-odm-module/downloads.png)](https://packagist.org/packages/doctrine/doctrine-mongo-odm-module)
+[![Build Status](https://github.com/doctrine/DoctrineMongoODMModule/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/doctrine/DoctrineMongoODMModule/actions/workflows/continuous-integration.yml)
+[![Code Coverage](https://codecov.io/gh/doctrine/DoctrineMongoODMModule/graphs/badge.svg)](https://app.codecov.io/gh/doctrine/DoctrineMongoODMModule)
+[![Latest Stable Version](https://poser.pugx.org/doctrine/doctrine-mongo-odm-module/v)](https://packagist.org/packages/doctrine/doctrine-mongo-odm-module)
+[![Total Downloads](https://poser.pugx.org/doctrine/doctrine-mongo-odm-module/downloads)](https://packagist.org/packages/doctrine/doctrine-mongo-odm-module)
 
 The DoctrineMongoODMModule leverages [DoctrineModule](https://github.com/doctrine/DoctrineModule/) and integrates 
 [Doctrine MongoDB ODM](https://github.com/doctrine/mongodb-odm) with [Laminas](https://getlaminas.org/) quickly
