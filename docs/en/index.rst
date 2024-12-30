@@ -40,9 +40,11 @@ you to manually install all dependencies that are listed in
 Next Steps
 ----------
 
-.. toctree::
-    :caption: Table of Contents
-
-    usage
-    user-guide
-    development
+-  :doc:`Setting up DoctrineMongoODMModule <usage>`:
+   this explains how to access the command line and the service manager, and
+   lists the available configuration options.
+-  :doc:`User guide for developing a Laminas application <user-guide>`:
+   explains how to get MongoDB ODM running with this module.
+-  :doc:`Contributing to the development<development>`:
+   learn how to run unit tests using Docker, to contribute to the development
+   of DoctrineMongoODMModule.
