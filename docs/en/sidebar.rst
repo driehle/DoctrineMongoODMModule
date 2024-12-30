@@ -1,8 +1,10 @@
 :orphan:
-.. toctree::
-    :depth: 3
 
-    index
-    usage
-    user-guide
-    development
+.. toctree::
+   :caption: Doctrine MongoODM Module
+   :depth: 3
+
+   index
+   usage
+   user-guide
+   development
