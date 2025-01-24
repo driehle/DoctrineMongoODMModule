@@ -4,18 +4,18 @@
   "slug": "doctrine-mongo-odm-module",
   "versions": [
     {
-      "name": "5.3",
-      "branchName": "5.3.x",
-      "slug": "5.3",
+      "name": "5.4",
+      "branchName": "5.4.x",
+      "slug": "5.4",
       "aliases": [
         "latest"
       ],
       "upcoming": true
     },
     {
-      "name": "5.2",
-      "branchName": "5.2.x",
-      "slug": "5.2",
+      "name": "5.3",
+      "branchName": "5.3.x",
+      "slug": "5.3",
       "aliases": [
         "current",
         "stable"
@@ -24,10 +24,16 @@
       "maintained": true
     },
     {
+      "name": "5.2",
+      "branchName": "5.2.x",
+      "slug": "5.2",
+      "maintained": true
+    },
+    {
       "name": "5.1",
       "branchName": "5.1.x",
       "slug": "5.1",
-      "maintained": true
+      "maintained": false
     },
     {
       "name": "5.0",
